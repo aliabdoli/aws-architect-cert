@@ -343,7 +343,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/viewing_metrics_with_cloudwa
 *	Notes:
 	+	need t?r account, then associate to instance/network interface
 	+	?????
-##	Network interface: 
+##	Network interface: (ENI) 
 *	an introduction of how ips work https://www.youtube.com/watch?v=PYTG7bvpvRI
 	+	netstat -nq
 *	it s a logical network card
@@ -352,7 +352,14 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/viewing_metrics_with_cloudwa
 		-	thats why it s always attached to a vpc
 	+	One or more secandary ip from vpc ip range
 		-	secondary is when you wanna connect to multiple Lans
-		-	So, with primary
+		-	Every lan you have an ip
+	+	One elastic ip per private ip
+	+	**one public** ip address
+		-	private/public ip: https://www.youtube.com/watch?v=WsgK08FyoRk
+	+	One or more Security groups
+*	Basic
+	+	can be attached/detached from *EC2*
+	+	
 ##	Enhanced networking ??
 ##	Elastic Facbric Adapter ??
 ##	placement group??
