@@ -1,6 +1,6 @@
 # aws-architect-cert
 Everything you need to know about aws to pass architect cert exam
-
+* all must ~ 35 services
 ## Topics inspired by:
 	https://cloudacademy.com/blog/choosing-the-right-aws-certification/
 	https://cloudacademy.com/learning-paths/cloud-academy-solutions-architect-associate-certification-v152-184/
@@ -8,13 +8,13 @@ Everything you need to know about aws to pass architect cert exam
 * Compute (https://aws.amazon.com/products/compute/)
 	+ must: 
 		- Virtual Machines(EC2) 
-		- Containers (ECS, ECR, EKS) 
-		- ServerLess (Lamda, Forgate)
+		- Containers (ECR, EKS) 
+		- ServerLess (Lamda)
 		- AWS Batch
-	+ optional: Amazon Lightsail, Amazon EC2 Spot Instances,  AWS Compute Optimizer, Beanstalk, AWS Serverless Application Repository
+	+ optional: Forgate, Amazon Lightsail, Amazon EC2 Spot Instances,  AWS Compute Optimizer, Beanstalk, AWS Serverless Application Repository
 * Storage
 	+ Database
-			- must:  Aurora, Relational Database Service, DynamoDB, ElastiCache, DocumentDB
+			- must: Aurora, Relational Database Service, DynamoDB, ElastiCache, DocumentDB
 			- optional: Neptune, (QLDB), TimeStream, 
 	+ File service  (https://aws.amazon.com/products/storage/)
 		- must: EBS, EFS, FSx, S3 (Glacier, Glacier deep), storage gateway,
