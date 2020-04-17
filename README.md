@@ -25,7 +25,7 @@ Everything you need to know about aws to pass architect cert exam
 	+ optional:  AWS Global Accelerator, AWS Transit Gateway, App Mesh, Cloud Map
 * Resilience: ??
 	+ Integration
-		- must:  MQ, AWS Step Functions, sqs, sns, swf
+		- must:  MQ, AWS Step Functions, sqs, sns, swf, kensis
 		- optional:
 * Security: 
 	+ must: IAM, Security Hub, Certificate Manager, Key Management Service, Secrets Manager
