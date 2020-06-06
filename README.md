@@ -14,11 +14,11 @@ Everything you need to know about aws to pass architect cert exam
 	+ optional: Forgate, Amazon Lightsail, Amazon EC2 Spot Instances,  AWS Compute Optimizer, Beanstalk, AWS Serverless Application Repository
 * Storage
 	+ Database
-			- must: Aurora, Relational Database Service, DynamoDB, ElastiCache
+			- must: Aurora, Relational Database Service, DynamoDB, ElastiSeach
 			- optional: Neptune, (QLDB), TimeStream, 
 	+ File service  (https://aws.amazon.com/products/storage/)
-		- must: FSx, S3 (Glacier, Glacier deep), storage gateway,
-		- must but later: EBS, EFS
+		- must: S3 (Glacier, Glacier deep), storage gateway,
+		- must but later: EBS, EFS, FSx
 		- optional: aws backup
 	
 * Network (https://aws.amazon.com/products/networking/)
@@ -28,6 +28,8 @@ Everything you need to know about aws to pass architect cert exam
 	+ Integration
 		- must:  Kenisis, sqs, sns, swf, MQ, AWS Step Functions
 		- optional:
+	+ cache
+		- redis, elasticCache
 * Security: 
 	+ must: IAM, Security Hub, Certificate Manager, Key Management Service, Secrets Manager
 	+ optional: GuardDuty, Inspector, CloudHSM, Directory Service, Firewall Manager, Shield
